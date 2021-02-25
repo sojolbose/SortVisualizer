@@ -6,6 +6,7 @@ import {bubbleSortAlgorithm} from "./BubbleSortAlgorithm"
 import {SelectionSortAlgorithm} from "./SelectionSortAlgorithm"
 import {quickSortAlgorithm} from "./QuickSortAlgorithm"
 import {QuickSortHandler} from "./SortAlgorithmHandler"
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 class Homepage extends React.Component{
 
@@ -552,9 +553,15 @@ class Homepage extends React.Component{
                 
             )
         })
+
         return(
             <div className="main_container">
-                <h1>SORTING VISUALIZER</h1>
+                <h1>
+                    SORTING VISUALIZER   
+                </h1>
+                <a href="#" className="github">
+                    <GitHubIcon fontSize="large"/>
+                </a>
                 {/* <nav className="navbar navbar-expand-sm bg-light navbar-light"> */}
                 <nav>
                     {/* <ul className="navbar-nav"> */}
